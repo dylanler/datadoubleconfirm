@@ -1,0 +1,256 @@
+version: 3
+domain: singapore_hawker_food
+created_by: nutritionist_sg
+seed_examples:
+  - context: |
+      Noodle dishes are a staple at hawker centers, with various options ranging from soupy to dry versions.
+      Understanding their nutritional content helps make informed choices, especially regarding sodium intake
+      and calorie content. Different noodle types and preparation methods affect their nutritional value.
+    questions_and_answers:
+      - question: |
+          Eh bro, what's the calories in one plate of char kway teow ah?
+        answer: |
+          One plate of Char Kway Teow (384g) contains 744 calories, with 38g of fat,
+          76g of carbs, and 23g of protein. It's quite high in saturated fat and sodium.
+      - question: |
+          Which one more healthy ah - wanton mee dry or soup one?
+        answer: |
+          Wonton Mee Soup (545g) has fewer calories at 290 calories compared to
+          Wonton Mee Dry (330g) at 411 calories. However, the soup version has higher
+          sodium content (1804mg vs 1502mg).
+      - question: |
+          Is Mee Soto better than Soto Ayam for diet?
+        answer: |
+          Mee Soto (541g) contains 433 calories, with 13g of fat and 60g of carbs.
+          It's relatively high in sodium (2678mg), but lower in calories compared to
+          many other noodle dishes.
+      - question: |
+          Can eat fish ball noodle during diet or not?
+        answer: |
+          Fishball Noodle Dry (327g) contains 370 calories, which is relatively low.
+          It has 8g fat, 55g carbs, and 19g protein. However, it's high in sodium (1645mg).
+      - question: |
+          My friend say mee rebus very jelak. How many calories inside?
+        answer: |
+          Mee Rebus (571g) contains 571 calories, with 17g of fat, 82g of carbs,
+          and 23g of protein. It's high in sodium (2164mg) and cholesterol (206mg).
+      - question: |
+          My grandmother want to eat lor mee. Can or not?
+        answer: |
+          Lor Mee (540g) contains 383 calories, with 11g of fat and 55g of carbs.
+          It's very high in sodium (2538mg) and cholesterol (140mg). Better to not
+          drink all the gravy.
+      - question: |
+          Which one better for diet - Penang Laksa or normal Laksa?
+        answer: |
+          Penang Laksa (569g) has 377 calories, much lower than regular Laksa Lemak (591 calories).
+          It's also lower in fat (2g vs 32g) but still high in sodium (2287mg).
+      - question: |
+          Hokkien mee dry or soup version better?
+        answer: |
+          Fried Hokkien Prawn Mee (442g) contains 522 calories, with 19g of fat and
+          69g of carbs. It's high in saturated fat (7.3g) and sodium (1423mg).
+      - question: |
+          Better eat prawn mee dry or soup?
+        answer: |
+          Prawn Mee Soup (574g) contains 294 calories, which is lower than many other noodle dishes.
+          It's low in fat (2g) but very high in sodium (2422mg). Best to not drink all the soup.
+      - question: |
+          Fish bee hoon soup good for diet or not?
+        answer: |
+          Sliced Fish Bee Hoon Soup (686g) contains 349 calories, with 8g fat and 48g carbs.
+          It's a good protein source (22g) but high in sodium (1413mg). Ask for more vegetables
+          to increase fiber.
+      - question: |
+          Which one more healthy - beehoon soto or mee soto?
+        answer: |
+          Beehoon Soto (902g) contains 359 calories with 17g fat, while Mee Soto (541g)
+          has 433 calories with 13g fat. Beehoon version has less sodium but both are
+          high in sodium content.
+
+  - context: |
+      Rice-based dishes form a significant part of hawker cuisine, from simple rice dishes to elaborate
+      preparations. These dishes vary greatly in their caloric content and nutritional value, with some
+      being quite high in fats and sodium. Understanding portion sizes and accompaniments is crucial
+      for making healthier choices.
+    questions_and_answers:
+      - question: |
+          Uncle, Nasi Lemak got how many calories?
+        answer: |
+          A plate of Nasi Lemak (210g) contains 494 calories, with 14g of fat,
+          80g of carbs, and 13g of protein. It's high in saturated fat (7.6g).
+      - question: |
+          My doctor say watch cholesterol. Can eat chicken rice or not?
+        answer: |
+          Roasted Chicken Rice (382g) contains 607 calories and 47mg cholesterol.
+          To make it healthier, remove the chicken skin and ask for steamed rice
+          instead of oily rice.
+      - question: |
+          Wah lau, mutton briyani very lemak right? Got how many calories?
+        answer: |
+          Mutton Dum Biryani (859g) contains 1142 calories, with 46g of fat,
+          135g of carbs, and 47g of protein. It's very high in saturated fat (24.9g)
+          and sodium (1400mg).
+      - question: |
+          Can eat char siew rice everyday or not?
+        answer: |
+          Char Siew Rice (327g) contains 605 calories, with 16g of fat, 91g of carbs,
+          and 24g of protein. While it's a good source of protein, it's high in sodium
+          (880mg) and should be eaten in moderation.
+      - question: |
+          Better eat duck rice with skin or without skin ah?
+        answer: |
+          Duck Rice without skin (350g) has 530 calories, while Duck Rice with skin (410g)
+          has 673 calories. Removing the skin reduces fat from 20g to 11g and cholesterol
+          from 92mg to 80mg.
+      - question: |
+          Porridge with century egg healthy or not?
+        answer: |
+          Porridge with Minced Pork & Century Egg (512g) contains 224 calories, which is relatively
+          low. However, it's high in cholesterol (370mg) and sodium (834mg), with 11g protein.
+      - question: |
+          Nasi goreng kampung got how many calories?
+        answer: |
+          Nasi Goreng (377g) contains 907 calories, with 33g of fat, 125g of carbs,
+          and 28g protein. It's very high in saturated fat (13.6g) and sodium (1245mg).
+
+  - context: |
+      Dim sum and small bites are popular choices at hawker centers, offering various steamed,
+      fried, and baked options. While individual pieces might seem low in calories, they can
+      add up quickly when consumed in quantity. Understanding portion sizes and cooking methods
+      helps in making better choices.
+    questions_and_answers:
+      - question: |
+          How many calories in one Siew Mai from the dim sum stall?
+        answer: |
+          One piece of Siew Mai (16g) contains 29 calories, with 1g of fat,
+          3g of carbs, and 1g of protein.
+      - question: |
+          Har Gow dim sum got a lot of calories or not?
+        answer: |
+          One piece of Har Gow (18g) contains only 27 calories, with 1g of fat,
+          4g of carbs, and 1g of protein. It's relatively low in calories but
+          watch the sodium content (74mg per piece).
+      - question: |
+          Which curry puff better ah - Malay or Indian style?
+        answer: |
+          The Malay-style curry puff (37g) contains 131 calories, with 8g of fat,
+          11g of carbs, and 4g of protein. It's relatively high in saturated fat (3.8g).
+      - question: |
+          How many calories in one spring roll dim sum?
+        answer: |
+          One Deep Fried Spring Roll (22g) contains 70 calories, with 4g of fat,
+          7g of carbs, and 1g of protein. It's relatively high in saturated fat (1.7g).
+      - question: |
+          Satay got a lot of fat or not?
+        answer: |
+          One stick of Mutton Satay (meat only, 11g) contains 31 calories, with
+          1g of fat, 2g of carbs, and 3g of protein. However, the peanut sauce
+          will add significant calories and fat.
+      - question: |
+          Samosa very heaty or not?
+        answer: |
+          One Vegetable Samosa (68g) contains 206 calories, with 11g of fat, 22g of carbs,
+          and 4g protein. It's high in saturated fat (5.3g) and should be eaten in moderation.
+
+  - context: |
+      Indian and Malay cuisine at hawker centers offers a variety of breads, curries, and
+      mixed dishes. These dishes often feature rich gravies and can be high in calories
+      and saturated fats. However, they also offer good protein and fiber content when
+      chosen wisely.
+    questions_and_answers:
+      - question: |
+          Can eat chapati everyday or not?
+        answer: |
+          One Chapati (60g) contains 187 calories, with 7g of fat, 28g of carbs,
+          and 4g of protein. It's a healthier choice compared to other Indian breads
+          like naan or prata.
+      - question: |
+          My makcik say murtabak very filling. How many calories inside?
+        answer: |
+          Mutton Murtabak (211g) contains 373 calories, with 17g of fat, 39g of carbs,
+          and 15g of protein. It's high in saturated fat (7g) and sodium (1365mg).
+      - question: |
+          Wah, Indian rojak very oily right? Got how many calories?
+        answer: |
+          Indian Rojak (116g) contains 299 calories, with 17g of fat, 25g of carbs,
+          and 11g protein. It's high in saturated fat (7.7g).
+      - question: |
+          Aiyah, I want to eat roti prata. How bad is it ah?
+        answer: |
+          One plain Roti Prata (70g) contains 209 calories, with 7g of fat,
+          32g of carbs, and 5g of protein. It's relatively moderate in calories,
+          but the curry sauce will add more calories and sodium.
+      - question: |
+          Which one more worth it - naan bread or chapati?
+        answer: |
+          Naan Bread (131g) has 357 calories with 9g fat, while Chapati (60g) has 187 calories
+          with 7g fat. Chapati is the healthier choice with less saturated fat and calories.
+      - question: |
+          My kakak say chickpea curry very healthy. True or not?
+        answer: |
+          Chickpeas in Curry (253g) contains 305 calories and is high in fiber (15.3g)
+          and protein (18g). However, it's high in saturated fat (8.1g) and sodium (1206mg).
+      - question: |
+          Can eat roti john for breakfast everyday?
+        answer: |
+          Roti John (252.5g) contains 721 calories, with 35g of fat, 77g of carbs,
+          and 25g protein. It's very high in saturated fat (18.1g) and sodium (2011mg),
+          not recommended for daily consumption.
+
+  - context: |
+      Meat dishes and soups at hawker centers range from light broths to rich stews.
+      The preparation method and choice of meat cuts significantly affect their nutritional
+      content. While some offer lean protein options, others can be high in cholesterol
+      and saturated fats.
+    questions_and_answers:
+      - question: |
+          My ah ma wants to eat bak chang, is it very heaty?
+        answer: |
+          One Bak Chang (132g) contains 276 calories, with 10g of fat, 39g of carbs,
+          and 8g of protein. It's relatively high in sodium (486mg) and saturated fat (3.8g).
+      - question: |
+          Chicken masala with how many people can share ah?
+        answer: |
+          Chicken Masala (455g) contains 860 calories and is recommended to be shared
+          among 3-4 people. It has 50g of fat, 16g of carbs, and 87g of protein.
+      - question: |
+          Kopi uncle say chicken soup more healthy, true or not?
+        answer: |
+          Chicken Soup with Chinese Herbs (534g) contains 145 calories and is low in fat (5g),
+          with high protein (24g). However, it's high in sodium (909mg), so those with high
+          blood pressure should be careful.
+      - question: |
+          Can eat kway chap during diet or not?
+        answer: |
+          Kway Chap (611g) contains 650 calories, with 26g of fat and 70g of carbs.
+          It's very high in cholesterol (348mg) and sodium (2303mg), not recommended
+          for those watching their heart health.
+      - question: |
+          Better eat chicken tandoori or chicken tikka?
+        answer: |
+          Chicken Tandoori (112g) contains 156 calories with 8g fat, while Chicken Tikka (71g)
+          has 173 calories with 8g fat. Both are good protein sources but watch the sodium content.
+      - question: |
+          Sup tulang good for health or not?
+        answer: |
+          Mutton Soup/Sup Tulang (934g) contains 211 calories and is high in protein (20g)
+          and fiber (6.3g). However, it's high in sodium (1658mg), so avoid drinking all the soup.
+      - question: |
+          Ayam goreng with rice very fatty right?
+        answer: |
+          Ayam Goreng (80g) contains 141 calories, with 9g fat and 16g protein.
+          Removing the skin will reduce fat and cholesterol content significantly.
+      - question: |
+          Can eat beef rendang everyday or not?
+        answer: |
+          Beef Rendang (93g) contains 208 calories, with 12g fat and 24g protein.
+          While it's high in protein, it's also high in saturated fat (5.8g) and
+          sodium (466mg), so eat in moderation.
+document_outline: "Nutritional Information for Popular Singapore Hawker Foods, Calories, Macronutrients, and Health Considerations, Healthier Choices at Hawker Centers"
+document:
+  repo: https://github.com/dylanler/datadoubleconfirm.git
+  commit: ef28e57135723d76a478ebc5169595d5ffa86864
+  patterns:
+    - data.md
+    
